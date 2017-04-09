@@ -101,3 +101,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # django-paypal settings
 PAYPAL_RECEIVER_EMAIL = 'raisulru10@gmail.com'
 PAYPAL_TEST = True
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

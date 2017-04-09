@@ -14,6 +14,6 @@ def order_created(order_id):
 												order.id)
 	mail_sent = send_mail(subject,
 						message,
-						'http://localhost:5555/worker/celery@dhcppc0',
+						'raisulru10@gmail.com',
 						[order.email])
 	return mail_sent
